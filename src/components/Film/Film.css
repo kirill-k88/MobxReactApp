@@ -1,0 +1,83 @@
+.film {
+  width: 100%;
+  padding: 10px;
+  margin: 0;
+  border: solid 1px goldenrod;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.film__data {
+  max-width: 20%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.film__ganre {
+  padding: 0;
+  margin: 0;
+  color: red;
+  font-size: 12px;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+.film__name {
+  padding: 0;
+  margin: 0;
+  color: goldenrod;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+.film__desc {
+  max-width: 60%;
+  padding: 0;
+  margin: 0;
+  color: goldenrod;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+.film__poster {
+  width: 50px;
+  height: auto;
+}
+
+.film__rate {
+  width: 5%;
+  display: flex;
+  gap: 5px;
+  justify-content: start;
+  align-items: center;
+}
+
+.film__mark {
+  padding: 0;
+  margin: 0;
+  color: goldenrod;
+  font-size: 15px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+.film__deleteBtn {
+  padding: 0;
+  margin: 0;
+  color: red;
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 500;
+  border: none;
+  background-color: transparent;
+}
